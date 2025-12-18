@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"difficultMain","id,游戏难度表id,关卡id,对应关卡表格\r\nnumber,number,number,string\r\nID,mapId,difficult,mapName\r\n1001,1000,1,difficult1\r\n1002,1001,2,difficult2\r\n1003,1002,3,difficult3"]],0,0,[],[],[]]

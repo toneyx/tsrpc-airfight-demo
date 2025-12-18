@@ -97,8 +97,6 @@ System.register("chunks:///_virtual/dom-token-list-prototype.js",["./cjs-loader.
 
 System.register("chunks:///_virtual/enum-bug-keys.js",["./cjs-loader.mjs"],(function(e,t){var r;return{setters:[function(e){r=e.default}],execute:function(){var n=e("__cjsMetaURL",t.meta.url);r.define(n,(function(e,t,r,n,o){r.exports=["constructor","hasOwnProperty","isPrototypeOf","propertyIsEnumerable","toLocaleString","toString","valueOf"],r.exports}),{})}}}));
 
-System.register("chunks:///_virtual/env",[],(function(e){return{execute:function(){e("DEBUG",!1)}}}));
-
 System.register("chunks:///_virtual/environment-ff-version.js",["./cjs-loader.mjs","./environment-user-agent.js"],(function(e,n){var t,r;return{setters:[function(e){t=e.default},function(e){r=e.__cjsMetaURL}],execute:function(){var s=e("__cjsMetaURL",n.meta.url);t.define(s,(function(e,n,t,r,s){var i=n("../internals/environment-user-agent").match(/firefox\/(\d+)/i);t.exports=!!i&&+i[1],t.exports}),(function(){return{"../internals/environment-user-agent":r}}))}}}));
 
 System.register("chunks:///_virtual/environment-is-ie-or-edge.js",["./cjs-loader.mjs","./environment-user-agent.js"],(function(e,n){var t,r;return{setters:[function(e){t=e.default},function(e){r=e.__cjsMetaURL}],execute:function(){var s=e("__cjsMetaURL",n.meta.url);t.define(s,(function(e,n,t,r,s){var i=n("../internals/environment-user-agent");t.exports=/MSIE|Trident/.test(i),t.exports}),(function(){return{"../internals/environment-user-agent":r}}))}}}));
